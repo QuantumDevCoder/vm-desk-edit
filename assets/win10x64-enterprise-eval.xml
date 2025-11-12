@@ -301,8 +301,8 @@
       </AutoLogon>
       <Display>
         <ColorDepth>32</ColorDepth>
-        <HorizontalResolution>1920</HorizontalResolution>
-        <VerticalResolution>1080</VerticalResolution>
+        <HorizontalResolution>1365</HorizontalResolution>
+        <VerticalResolution>911</VerticalResolution>
       </Display>
       <OOBE>
         <HideEULAPage>true</HideEULAPage>
