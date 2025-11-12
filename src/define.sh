@@ -1569,8 +1569,8 @@ prepareInstall() {
   local install="$dir/\$OEM\$/\$1/OEM/install.bat"
   [ -f "$install" ] && oem="\"Script\"=\"cmd /C start \\\"Install\\\" \\\"cmd /C C:\\\\OEM\\\\install.bat\\\"\""
 
-  [ -z "$WIDTH" ] && WIDTH="1280"
-  [ -z "$HEIGHT" ] && HEIGHT="720"
+  [ -z "$WIDTH" ] && WIDTH="1365"
+  [ -z "$HEIGHT" ] && HEIGHT="911"
 
   XHEX=$(printf '%x\n' "$WIDTH")
   YHEX=$(printf '%x\n' "$HEIGHT")
